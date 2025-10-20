@@ -1,6 +1,8 @@
 import pygame
 from constants import *
 from player import Player
+from asteroid import Asteroid
+from asteroidfield import AsteroidField
 
 def main():
     pygame.init()
@@ -12,11 +14,16 @@ def main():
     # choosing a black colour to fill
     color = (0, 0, 0)   
     # creating groups
-    updatable = []
-    drawable = []
-    Player.containers = (updatable, drawable)
+    asteroids = pygame.sprite.Group()
+    updatables = pygame.sprite.Group()
+    drawables = pygame.sprite.Group()
+    # adding classes of objects to groups
+    Player.containers = (updatables, drawables)
+    Asteroid.containers = (updatables, drawables, asteroids)
+    AsteroidField.containers = (updatables)
     # instantiate player object 
-    player = Player(SCREEN_WIDTH/2,SCREEN_HEIGHT
+    player = Player(SCREEN_WIDTH/2,SCREEN_HEIGHT)
+    asteroid_obj = AsteroidField()
 
     while True:
         # the program will never run at more than 60 frames per second
