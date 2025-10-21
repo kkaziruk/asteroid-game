@@ -35,9 +35,9 @@ constants.py
 ---
 
 ## 🚧 Future Ideas
-Lives
-Explosions & particle effects
-Menu screen & sound
+- **Lives**
+- **Explosions & particle effects**
+- **Menu screen & sound**
 
 ---
 
