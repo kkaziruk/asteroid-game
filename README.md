@@ -21,7 +21,9 @@ pip install pygame
 python main.py
 A,W,S,D keys to move. Spacebar to shoot. Don’t die.
 
-📁 Structure
+---
+
+## 📁 Structure
 main.py
 asteroid.py
 asteroidfield.py
@@ -29,9 +31,13 @@ player.py
 circleshape.py
 constants.py
 
-🚧 Future Ideas
+---
+
+## 🚧 Future Ideas
 Lives
 Explosions & particle effects
 Menu screen & sound
+
+---
 
 Built by Zack Kazirukanyo 🚀
