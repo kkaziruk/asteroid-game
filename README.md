@@ -14,7 +14,6 @@ Made to explore game loops, collisions, and delta-time movement.
 ---
 
 ## ▶️ Run It
-```bash
 git clone https://github.com/kkaziruk/asteroid-game.git
 cd asteroid-game
 pip install pygame
