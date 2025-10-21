@@ -24,13 +24,14 @@ A,W,S,D keys to move. Spacebar to shoot. Don’t die.
 ---
 
 ## 📁 Structure
+```bash
 main.py
 asteroid.py
 asteroidfield.py
 player.py
 circleshape.py
 constants.py
-
+```
 ---
 
 ## 🚧 Future Ideas
